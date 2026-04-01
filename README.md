@@ -8,9 +8,8 @@ Simple Django project for importing email records from an XLSX file and sending 
 
 ## Setup
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -e .
+uv venv
+uv sync
 python manage.py migrate
 ```
 
